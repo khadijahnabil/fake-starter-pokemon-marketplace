@@ -2,4 +2,6 @@
   max-width: 1300px;
   display: block;
   margin: 40px auto;
+  border: solid 7px;
+  border-radius: 10px;
 }
