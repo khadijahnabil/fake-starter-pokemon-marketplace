@@ -1,11 +1,11 @@
 import React from "react";
 
-import "./Header.css";
+import "./Navbar.css";
 
-export default function Header() {
+export default function Navbar() {
   return (
-    <header>
+    <nav>
       <img src="../images/pokemon-logo.png" className="pokemon--logo" />
-    </header>
+    </nav>
   );
 }
