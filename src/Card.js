@@ -15,9 +15,7 @@ export default function Card(props) {
         </p>
         <ul className="card--stats">
           <li>
-            <span className="card--stats-title">Type:</span>{" "}
-            <span className="green">{props.type}</span>
-            <span className="purple"></span>
+            <span className="card--stats-title">Type:</span> {props.type}
           </li>
           <li>
             <span className="card--stats-title">Species:</span> {props.species}

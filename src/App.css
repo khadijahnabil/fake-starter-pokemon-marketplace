@@ -5,3 +5,12 @@
   border: solid 7px;
   border-radius: 10px;
 }
+
+.cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+  justify-content: center;
+  background-color: #f7c45d;
+}

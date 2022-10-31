@@ -1,13 +1,19 @@
 .card {
-  max-width: 290px;
+  max-width: 285px;
   border-radius: 10px;
   border-width: 8px;
   border-color: black;
-  margin: 30px;
+  margin: 50px;
+  flex: 0 0 auto; /* ADD */
+  display: flex; /* ADD */
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card--image {
   background-color: #cdd2d8;
+  height: 300px;
+  object-fit: cover;
   border-radius: 2px 2px 0px 0px;
 }
 
