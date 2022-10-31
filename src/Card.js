@@ -3,9 +3,16 @@ import React from "react";
 import "./Card.css";
 
 export default function Card(props) {
+  let badgeText;
+  if (props.stock === 0) {
+    badgeText = "SOLD OUT";
+  } else if (props.stock === 1) {
+    badgeText = "LAST STOCK!";
+  }
+
   return (
     <div className="card">
-      <div className="card--badge">SOLD OUT</div>
+      {badgeText && <div className="card--badge">{badgeText}</div>}
       <img src={props.img} className="card--image" />
       <div className="card--info">
         <p className="card--title">{props.title}</p>
@@ -15,20 +22,23 @@ export default function Card(props) {
         </p>
         <ul className="card--stats">
           <li>
-            <span className="card--stats-title">Type:</span> {props.type}
+            <span className="card--stats-title">Type:</span> {props.stats.type}
           </li>
           <li>
-            <span className="card--stats-title">Species:</span> {props.species}
+            <span className="card--stats-title">Species:</span>{" "}
+            {props.stats.species}
           </li>
           <li>
-            <span className="card--stats-title">Height</span>: {props.height} m
+            <span className="card--stats-title">Height</span>:{" "}
+            {props.stats.height} m
           </li>
           <li>
-            <span className="card--stats-title">Weight:</span> {props.weight} kg
+            <span className="card--stats-title">Weight:</span>{" "}
+            {props.stats.weight} kg
           </li>
           <li>
             <span className="card--stats-title">Abilities:</span>{" "}
-            {props.abilities}
+            {props.stats.abilities}
           </li>
         </ul>
       </div>

@@ -4,8 +4,8 @@
   border-width: 8px;
   border-color: black;
   margin: 50px;
-  flex: 0 0 auto; /* ADD */
-  display: flex; /* ADD */
+  flex: 0 0 auto;
+  display: flex;
   flex-direction: column;
   justify-content: center;
 }
