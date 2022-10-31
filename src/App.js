@@ -4,7 +4,7 @@ import "./App.css";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Card from "./Card";
-import pokemonData from "./pokemonData";
+import { pokemonData } from "./pokemonData";
 
 function App() {
   const Cards = pokemonData.map((item) => {

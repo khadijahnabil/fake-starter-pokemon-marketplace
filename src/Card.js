@@ -13,11 +13,15 @@ export default function Card(props) {
   return (
     <div className="card">
       {badgeText && <div className="card--badge">{badgeText}</div>}
-      <img src={props.img} className="card--image" />
+      <img src={props.img} alt={props.title} className="card--image" />
       <div className="card--info">
         <p className="card--title">{props.title}</p>
         <p className="card--price">
-          <img src="../images/pokedollar.png" className="card--price-icon" />{" "}
+          <img
+            src="../images/pokedollar.png"
+            alt="Pokemon Dollar Icon"
+            className="card--price-icon"
+          />{" "}
           {props.price}
         </p>
         <ul className="card--stats">

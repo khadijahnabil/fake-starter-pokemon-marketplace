@@ -1,4 +1,4 @@
-export default [
+export const pokemonData = [
   {
     id: 1,
     img: "../images/bulbasaur.png",
