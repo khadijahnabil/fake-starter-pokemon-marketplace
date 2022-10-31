@@ -1,0 +1,62 @@
+.card {
+  max-width: 280px;
+  border-radius: 10px;
+  border-width: 8px;
+  border-color: black;
+  margin: 30px;
+}
+
+.card--image {
+  background-color: #cdd2d8;
+  border-radius: 2px 2px 0px 0px;
+}
+
+.card--info {
+  background-color: #94e2e4;
+  border-radius: 0px 0px 2px 2px;
+}
+
+.card--badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #f36a74;
+  color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.card--title {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+
+.card--price {
+  text-align: center;
+  margin: 0px;
+}
+.card--price-icon {
+  width: 12px;
+}
+
+.card--stats {
+  font-size: 12px;
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+}
+
+.card--stats-title {
+  font-weight: bold;
+  color: #f36a74;
+}
+
+.green {
+  color: #6bba76;
+}
+
+.purple {
+  color: #a759a7;
+}
