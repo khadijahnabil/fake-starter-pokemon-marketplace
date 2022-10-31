@@ -6,5 +6,11 @@
 h1 {
   font-size: 35px;
   text-align: center;
-  padding: 35px 10px;
+  padding: 35px 10px 10px;
+}
+
+.hero--text {
+  padding: 20px;
+  text-align: center;
+  margin: 0;
 }
